@@ -7,7 +7,7 @@ A responsive React app that fetches and displays a list of products from the [Fa
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/SargsyanGegham/React-List-Display>
    cd react-list-display
    npm i
 
