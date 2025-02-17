@@ -1,6 +1,6 @@
 // src/components/LoadingSpinner.tsx
 import React from "react";
-import "./styles.css";  // Import the styles for the spinner
+import "./styles.css";
 
 const LoadingSpinner: React.FC = () => {
   return (

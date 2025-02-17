@@ -1,7 +1,7 @@
 // src/services/productService.ts
 
-import axiosInstance from "./axiosInstance";  // Import the Axios instance
-import { Product } from "../types";            // Import the Product type
+import axiosInstance from "./axiosInstance";
+import { Product } from "../types";
 import axios from "axios";
 
 export const fetchProducts = async (signal: AbortSignal): Promise<Product[]> => {

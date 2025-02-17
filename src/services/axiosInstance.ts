@@ -2,9 +2,9 @@ import axios from "axios";
 
 // Create an Axios instance
 const axiosInstance = axios.create({
-  baseURL: "https://fakestoreapi.com",  // Default base URL for the API
+  baseURL: "https://fakestoreapi.com",
   headers: {
-    "Content-Type": "application/json", // Set default headers for requests
+    "Content-Type": "application/json",
   },
 });
 

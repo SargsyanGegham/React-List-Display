@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { fetchProducts } from "./services/";  // Import the fetch function
-import { Product } from "./types";                         // Import the Product type
+import { fetchProducts } from "./services/"; 
+import { Product } from "./types";
 import "./App.css";
-import LoadingSpinner from "./components/loadingSpinner";  // Import the Loading Spinner component
+import LoadingSpinner from "./components/loadingSpinner";
 
 const App: React.FC = () => {
   const [products, setProducts] = useState<Product[]>([]);
